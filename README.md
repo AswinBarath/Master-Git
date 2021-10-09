@@ -55,6 +55,8 @@ Master the concepts of Git with me through a set of tutorials
 	- Opens the vim editor for names.txt file
 - `cat names.txt`
 	- Displays all the content in names.txt file
+- `rm -rf names.txt`
+	- Deletes the *names.txt* file
 
 ---
 
@@ -86,7 +88,7 @@ Master the concepts of Git with me through a set of tutorials
 	- Initializes empty git repository in the current working directory
 - `git status`
 	- Know more about the changes made in the project
-- `git names.txt`
+- `git add names.txt`
 	- Adds *names.txt* file to the staging area
 - `git add .`
 	- Add all of the files in the staging area
@@ -98,6 +100,19 @@ Master the concepts of Git with me through a set of tutorials
 	- Restores the changes made since previous commit from the staging area
 - `git log`
 	- Displays the entire history of commits
+- `git reset` **[hash value of the commit]**
+	- Removing a commit from the history of a project
+- `git stash`
+	- Save the progress somewhere else *(like a backstage)* and make the present working directory clean
+- `git stash pop`
+	- Bring back the changes saved *(from backstage)*
+- `git stash clean`
+	- Just deletes all the changes saved *(from backstage)*
+- `git remote add origin ` **[GitHub Repository URL]**
+	- Attach local *Git* project to *GitHub* Repository
+- `git push origin main`
+	- Share the changes from local project to remote repository
+
 
 --- 
 
@@ -115,7 +130,10 @@ Master the concepts of Git with me through a set of tutorials
 
 
 
-## Source
+## Resources
+
+- [Learn Branching in Git in an Interactive way](https://learngitbranching.js.org/)
 
 - [Complete Git and GitHub Tutorial](https://youtu.be/apGV9Kg7ics) by Kunal Kushwaha <https://github.com/kunal-kushwaha>
+
 - [Front end Masters - Git in-depth](https://frontendmasters.com/courses/git-in-depth/) by Nina Zakharenko <https://github.com/nnja>
